@@ -81,10 +81,10 @@ Issues and pull requests welcome. A good recipe here:
 
 ## Who maintains this
 
-Built by [Luis Esquivel](https://www.linkedin.com/in/luisesquivel/), from a
-marketing operations seat, mostly by getting annoyed at doing these things by
-hand. Also the founder of [ax1om](https://ax1om.ai), which builds predictive
-scoring models on a company's own CRM conversion history.
+Built by Luis Esquivel from a marketing operations seat, mostly by getting
+annoyed at doing these things by hand. Also the founder of
+[ax1om](https://ax1om.ai), which builds predictive scoring models on a
+company's own CRM conversion history.
 
 These recipes are deliberately the boring layer underneath that: data hygiene
 and taxonomy work you have to do before any model, including ours, is worth
