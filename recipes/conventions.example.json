@@ -1,0 +1,22 @@
+{
+  "_comment": "Example UTM conventions for utm_lint.py. Copy, rename to conventions.json, and edit to match your own taxonomy. Every key is optional.",
+
+  "required": ["utm_source", "utm_medium", "utm_campaign"],
+
+  "allowed": {
+    "utm_source": ["li", "rd", "em", "gh", "yt", "x", "sl", "nl"],
+    "utm_medium": ["social", "email", "referral", "cpc", "organic", "community"]
+  },
+
+  "lowercase": ["utm_source", "utm_medium", "utm_campaign", "utm_content"],
+
+  "patterns": {
+    "utm_campaign": "^[a-z0-9]+(-[a-z0-9]+)*$",
+    "utm_content": "^[a-z0-9]+(-[a-z0-9]+)*$"
+  },
+
+  "max_length": {
+    "utm_campaign": 60,
+    "utm_content": 40
+  }
+}

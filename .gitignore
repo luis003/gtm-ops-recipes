@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+*.csv
+!examples/*.csv
+.DS_Info
